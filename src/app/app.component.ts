@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit ,
+  DoCheck, OnChanges, OnDestroy, OnInit, Input, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-root',
